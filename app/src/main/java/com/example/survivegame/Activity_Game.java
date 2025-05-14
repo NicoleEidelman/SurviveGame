@@ -49,9 +49,9 @@ public class Activity_Game extends AppCompatActivity {
     private void finishGame() {
         String state = getIntent().getStringExtra(EXTRA_STATE);
         if (this.goodToGo) {
-            Toast.makeText(this, "Survived in " + state, 1).show();
+            Toast.makeText(this, "Survived in " + state, Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this, "You Failed ", 1).show();
+            Toast.makeText(this, "You Failed ", Toast.LENGTH_LONG).show();
         }
         finish();
     }
