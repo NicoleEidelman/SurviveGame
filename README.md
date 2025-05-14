@@ -11,7 +11,9 @@
    * The code in `strings.xml` contained this line:  
     ![Screenshot 2025-05-11 202701](https://github.com/user-attachments/assets/96230ca9-adf2-434d-8ef1-7ff06e4de3f9)
    * There were invisible Unicode characters inside the string, as taught in class.
-   * Fixing this resolved the crash, and the app launched successfully.
+   * Removed broken or unnecessary files and rebuilt a clean working project.  
+   * Fixed compilation warnings in `Activity_Game.java`, such as replacing the hardcoded `1` in `Toast.makeText()` with the proper constant `Toast.LENGTH_LONG`.
+
 
 
 ### 3. Second Bug Encountered – OutOfBoundsException
